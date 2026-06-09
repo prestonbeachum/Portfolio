@@ -204,9 +204,9 @@ main {
 
 /* Stronger override for large viewports to ensure hero title stays compact */
 .hero .hero-copy h2 {
-  font-size: clamp(1.2rem, 2.2vw, 2.4rem);
-  line-height: 1.02;
-  letter-spacing: -0.02em;
+  font-size: clamp(1rem, 1.6vw, 1.8rem) !important;
+  line-height: 1.02 !important;
+  letter-spacing: -0.02em !important;
 }
 
 .lede {
