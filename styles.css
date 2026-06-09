@@ -53,8 +53,9 @@ body::before {
 
 .page-shell {
   display: grid;
-  grid-template-columns: 290px minmax(0, 1fr);
-  gap: 32px;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr;
+  gap: 24px;
   max-width: 1440px;
   margin: 0 auto;
   padding: 28px;
@@ -62,18 +63,19 @@ body::before {
 
 .rail {
   position: sticky;
-  top: 28px;
+  top: 18px;
   align-self: start;
-  min-height: calc(100vh - 56px);
+  min-height: auto;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-between;
-  gap: 24px;
-  padding: 28px 22px;
+  align-items: center;
+  gap: 20px;
+  padding: 18px 24px;
   border: 1px solid var(--line);
-  border-radius: 28px;
+  border-radius: 20px;
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.72), rgba(240, 249, 248, 0.45));
-  backdrop-filter: blur(16px);
+  backdrop-filter: blur(12px);
   box-shadow: var(--shadow);
 }
 
@@ -87,8 +89,9 @@ body::before {
 }
 
 .rail h1 {
-  font-size: clamp(3rem, 5vw, 4.5rem);
-  max-width: 8ch;
+  font-size: clamp(1.4rem, 2.2vw, 2.6rem);
+  max-width: none;
+  margin-right: 12px;
 }
 
 .eyebrow,
@@ -119,8 +122,9 @@ body::before {
 }
 
 .rail nav {
-  display: grid;
-  gap: 10px;
+  display: flex;
+  gap: 12px;
+  align-items: center;
 }
 
 .rail nav a,
@@ -131,7 +135,7 @@ body::before {
 }
 
 .rail nav a {
-  padding: 12px 14px;
+  padding: 10px 12px;
   border-radius: 999px;
   border: 1px solid transparent;
   transition: transform 180ms ease, border-color 180ms ease, background 180ms ease;
@@ -139,7 +143,7 @@ body::before {
 
 .rail nav a:hover,
 .rail nav a:focus-visible {
-  transform: translateX(6px);
+  transform: translateY(-2px);
   border-color: var(--line);
   background: rgba(255, 255, 255, 0.78);
   outline: none;
