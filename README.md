@@ -17,4 +17,15 @@ Open `index.html` in a browser, or serve the folder with any static server.
 ## Notes
 
 - This repository contains `Resume.pdf` and an extracted `Resume.txt` used to
-	populate the site content.
+	populate the site content. To update content, edit `index.html` or regenerate
+	from a new resume PDF.
+
+### Preview locally
+
+Run a simple static server (Python):
+
+```bash
+python3 -m http.server 8000
+```
+
+Then visit `http://localhost:8000` in your browser.

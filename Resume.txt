@@ -1,0 +1,95 @@
+Preston Beachum
+Wilmington, NC — (704) 853-9303 — prestonbeachum@gmail.com
+linkedin.com/in/preston-beachum-a3b7b12ba — github.com/prestonbeachum
+
+Education
+University of North Carolina at Wilmington
+Expected May 2027
+Bachelor of Science in Software Engineering
+GPA: 3.5
+Relevant Coursework: Software Construction, Design and Analysis of Algorithms, Object-Oriented Programming
+(Java), Web Development (HTML/CSS, JS), Software Systems Analysis, Architecture & Design Patterns
+
+Work Experience
+Associate Software Engineer — Ohanafy
+
+Jun 2026 – Present — Wilmington, NC
+
+• Designed and shipped a customer-facing branding customization feature, enabling clients to apply their own
+brand identity directly within their production Salesforce orgs
+Software Engineering Intern — Ohanafy
+
+Feb 2026 – May 2026 — Wilmington, NC
+
+• Engineered and shipped production-grade features by designing and implementing custom data models (objects,
+fields) aligned with evolving business requirements
+• Built and integrated Lightning Web Components (LWC) with Apex backend services, enabling full-stack functionality across UI and business logic layers
+• Executed end-to-end regression testing across core workflows, identifying and documenting critical defects prerelease to ensure system stability
+• Refactored frontend components by migrating legacy LWCs to Tailwind CSS, improving UI consistency and
+development velocity
+• Contributed to system design discussions, influencing component architecture, scalability, and long-term maintainability
+Systems Engineer Intern — Union County Public Schools (UCPS)
+
+May 2025 – Aug 2025 — Monroe, NC
+
+• Automated 10+ internal workflows and system processes, improving operational efficiency by approximately
+60% and reducing manual overhead
+• Developed and maintained internal web-based tools supporting systems integration and end-user infrastructure
+• Standardized repeatable tasks through scripting and documentation, improving onboarding speed and system
+reliability
+
+Research Experience
+Undergraduate Research Assistant — INSIGHTs Network Visualization Project
+UNCW School of Nursing & Department of Computer Science
+
+Aug 2025 – Present
+
+• Selected as the only Software Engineering student featured in UNCW Research Magazine for technical contributions to a research-grade medical visualization platform
+• Designed and prototyped next-generation system architecture using real-world usage data and clinician feedback
+• Led architectural refactoring across 3 Flask-based microservices (INSIGHTs-GBA, PROACTIVE, SIMU), improving scalability, modularity, and data flow
+• Collaborated with cross-functional clinical and academic teams to deliver systems evaluated in real-world
+healthcare environments
+Undergraduate Research Assistant — LLM Security Research Lab
+UNCW Department of Computer Science
+
+May 2026 – Present
+
+• Researched LLM security and vulnerability detection workflows using AWS Bedrock and related AWS services
+to evaluate and compare transformer-based AI models.
+• Built early-stage evaluation pipelines for testing model outputs, response consistency, and comparative behavior
+across multiple foundation models.
+• Conducted experimentation with prompt engineering, adversarial prompting, and model robustness testing in
+cloud-based environments.
+• Collaborated on technical analysis of model security tradeoffs, inference behavior, and practical considerations
+for secure AI system deployment.
+
+Honors & Recognition
+• Selected to present engineering research and program outcomes to the UNCW Board of Trustees, representing
+the College of Science & Engineering alongside faculty leadership
+• Selected to be featured in a national documentary by the American Society for Engineering Education (ASEE),
+representing UNCW Engineering through on-camera interview and program showcase
+
+Projects
+Wi-Fi Analytics Platform — Network telemetry collection and web dashboard
+• Architected and implemented a full-stack network telemetry platform processing thousands of 802.11 packets
+per minute from distributed edge devices
+• Built a Raspberry Pi-based capture system operating in monitor mode to collect probe requests, beacon frames,
+and traffic metadata
+• Designed backend services to stream, store, and analyze structured packet data using PostgreSQL and Node.js
+• Automated device provisioning and runtime behavior using Bash and systemd, enabling zero-touch deployment
+into packet capture mode
+• Developed a web-based dashboard (React/Next.js) for real-time visualization and analysis of network activity
+Collaborative Task Manager — Scalable real-time task management platform
+• Engineered a scalable backend using Spring Boot and PostgreSQL, supporting secure user authentication and
+role-based access control
+• Implemented a scheduled notification system achieving 100% delivery success during integration testing
+• Automated API workflows using Bash scripts, reducing manual testing and provisioning time by 80%
+• Designed RESTful APIs supporting concurrent users and real-time task updates
+
+Technical Skills
+Languages: Java, JavaScript, Python, HTML/CSS
+Frameworks & Libraries: React, Next.js, Spring Boot, Flask, Node.js, Next.js
+Databases: PostgreSQL, SQLite, SQL
+Tools & Technologies: Git, Docker, Linux, Bash, WebSocket, npm, AWS, ESLint, GitHub Actions
+
+
