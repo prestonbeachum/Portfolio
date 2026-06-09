@@ -53,9 +53,8 @@ body::before {
 
 .page-shell {
   display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: auto 1fr;
-  gap: 24px;
+  grid-template-columns: 290px minmax(0, 1fr);
+  gap: 32px;
   max-width: 1440px;
   margin: 0 auto;
   padding: 28px;
@@ -63,20 +62,18 @@ body::before {
 
 .rail {
   position: sticky;
-  top: 18px;
-  z-index: 50;
+  top: 28px;
   align-self: start;
-  min-height: auto;
+  min-height: calc(100vh - 56px);
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
-  align-items: center;
-  gap: 20px;
-  padding: 18px 24px;
+  gap: 24px;
+  padding: 28px 22px;
   border: 1px solid var(--line);
-  border-radius: 20px;
+  border-radius: 28px;
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.72), rgba(240, 249, 248, 0.45));
-  backdrop-filter: blur(12px);
+  backdrop-filter: blur(16px);
   box-shadow: var(--shadow);
 }
 
@@ -90,9 +87,8 @@ body::before {
 }
 
 .rail h1 {
-  font-size: clamp(1.2rem, 1.8vw, 2.2rem);
-  max-width: none;
-  margin-right: 12px;
+  font-size: clamp(2.2rem, 4vw, 3.8rem);
+  max-width: 8ch;
 }
 
 .eyebrow,
@@ -123,9 +119,8 @@ body::before {
 }
 
 .rail nav {
-  display: flex;
-  gap: 12px;
-  align-items: center;
+  display: grid;
+  gap: 10px;
 }
 
 .rail nav a,
@@ -197,16 +192,15 @@ main {
 
 .hero h2 {
   max-width: 10ch;
-  font-size: clamp(1.1rem, 2.2vw, 1.6rem);
-  line-height: 1.08;
+  font-size: clamp(1.3rem, 3vw, 2.4rem);
+  line-height: 1.06;
   margin: 6px 0;
 }
 
-/* Stronger override for large viewports to ensure hero title stays compact */
 .hero .hero-copy h2 {
-  font-size: clamp(1rem, 1.6vw, 1.8rem) !important;
-  line-height: 1.02 !important;
-  letter-spacing: -0.02em !important;
+  font-size: clamp(1.3rem, 3vw, 2.4rem);
+  line-height: 1.06;
+  letter-spacing: -0.02em;
 }
 
 .lede {
